@@ -1,0 +1,12 @@
+@font-face {
+  font-family: "Monterchi Trial Book";
+  src: url("../Fonts/fonnts.com-Monterchi-Book-trial.ttf");
+}
+
+.part-title {
+  font-family: "Monterchi Trial Book";
+  font-size: 3.6em;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 20vh;
+}

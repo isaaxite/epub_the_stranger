@@ -1,0 +1,33 @@
+@font-face {
+  font-family: "Nord Poem Lite";
+  src: url("../Fonts/nord-poem-lite.regular.ttf");
+}
+
+@font-face {
+  font-family: "Fiesole Text Regular";
+  src: url("../Fonts/Fiesole Text Regular.ttf");
+}
+
+body {
+  display: block;
+  font-size: 1em;
+  padding-left: 0;
+  padding-right: 0;
+  margin: 0 5pt;
+}
+
+.p-indent {
+  display: block;
+  text-indent: 1.5em;
+  text-align: justify;
+  font-family: "Fiesole Text Regular";
+}
+
+.chapter-title {
+  font-family: "Nord Poem Lite";
+  text-align: center;
+  font-weight: 400;
+  font-size: 2.8em;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+}
