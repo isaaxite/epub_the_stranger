@@ -11,7 +11,7 @@ Camus was born in French Algeria to pied-noir parents. He spent his childhood in
 Philosophically, Camus's views contributed to the rise of the philosophy known as absurdism. Some consider Camus's work to show him to be an existentialist, even though he himself firmly rejected the term throughout his lifetime.</dc:description>
     <dc:date opf:scheme="dcterms:issued">1988</dc:date>
     <dc:identifier opf:scheme="UUID" id="BookId">urn:uuid:23836552-9a47-4f3d-9191-9c991008bb95</dc:identifier>
-    <meta name="cover" content="cover.jpg"/>
+    <meta name="cover" content="cover_front.jpg"/>
     <dc:date opf:event="modification" xmlns:opf="http://www.idpf.org/2007/opf">2025-05-13</dc:date>
     <meta property="dcterms:modified">{{lastModifyTime}}</meta>
   </metadata>
@@ -19,10 +19,21 @@ Philosophically, Camus's views contributed to the rise of the philosophy known a
     <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
     <item id="Style0001.css" href="Styles/stylesheet.css" media-type="text/css"/>
     <item id="x9033c8d3-923b-4005-9084-3a0ad7e56c1b" href="Styles/page_styles.css" media-type="text/css"/>
-    <item id="cover.jpg" href="Images/cover.jpg" media-type="image/jpeg"/>
-    <item id="cover.xhtml" href="Text/cover.xhtml" media-type="application/xhtml+xml"/>
+    <item id="title_page_logo.png" href="Images/title_page_logo.png" media-type="image/png"/>
+    <item id="cover_front.jpg" href="Images/cover_front.jpg" media-type="image/jpeg"/>
+    <item id="cover_back.jpg" href="Images/cover_back.jpg" media-type="image/jpeg"/>
     <item id="font-ttf_part-title" href="Fonts/fonnts.com-Monterchi-Book-trial.ttf" media-type="application/x-font-ttf"/>
+    <item id="Courgette-Regular" href="Fonts/Courgette-Regular.ttf" media-type="application/x-font-ttf"/>
     <item id="part_title.css" href="Styles/part_title.css" media-type="text/css"/>
+    <item id="cover.css" href="Styles/cover.css" media-type="text/css"/>
+    <item id="title_page.css" href="Styles/title_page.css" media-type="text/css"/>
+    <item id="translator_note.css" href="Styles/translator_note.css" media-type="text/css"/>
+    <item id="copyright.css" href="Styles/copyright.css" media-type="text/css"/>
+    <item id="about_author_and_translator.css" href="Styles/about_author_and_translator.css" media-type="text/css"/>
+    <item id="cover.xhtml" href="Text/cover.xhtml" media-type="application/xhtml+xml"/>
+    <item id="title_page.xhtml" href="Text/title_page.xhtml" media-type="application/xhtml+xml"/>
+    <item id="copyright.xhtml" href="Text/copyright.xhtml" media-type="application/xhtml+xml"/>
+    <item id="translator's_note.xhtml" href="Text/translator's_note.xhtml" media-type="application/xhtml+xml"/>
     <item id="part_one.xhtml" href="Text/part_one.xhtml" media-type="application/xhtml+xml"/>
     <item id="Section0001.xhtml" href="Text/Section0001.xhtml" media-type="application/xhtml+xml"/>
     <item id="Section0002.xhtml" href="Text/Section0002.xhtml" media-type="application/xhtml+xml"/>
@@ -36,9 +47,14 @@ Philosophically, Camus's views contributed to the rise of the philosophy known a
     <item id="Section0009.xhtml" href="Text/Section0009.xhtml" media-type="application/xhtml+xml"/>
     <item id="Section0010.xhtml" href="Text/Section0010.xhtml" media-type="application/xhtml+xml"/>
     <item id="Section0011.xhtml" href="Text/Section0011.xhtml" media-type="application/xhtml+xml"/>
+    <item id="about_the_author.xhtml" href="Text/about_the_author.xhtml" media-type="application/xhtml+xml"/>
+    <item id="about_the_translator.xhtml" href="Text/about_the_translator.xhtml" media-type="application/xhtml+xml"/>
   </manifest>
   <spine toc="ncx">
     <itemref idref="cover.xhtml"/>
+    <itemref idref="title_page.xhtml"/>
+    <itemref idref="copyright.xhtml"/>
+    <itemref idref="translator's_note.xhtml"/>
     <itemref idref="part_one.xhtml"/>
     <itemref idref="Section0001.xhtml"/>
     <itemref idref="Section0002.xhtml"/>
@@ -52,6 +68,8 @@ Philosophically, Camus's views contributed to the rise of the philosophy known a
     <itemref idref="Section0009.xhtml"/>
     <itemref idref="Section0010.xhtml"/>
     <itemref idref="Section0011.xhtml"/>
+    <itemref idref="about_the_author.xhtml"/>
+    <itemref idref="about_the_translator.xhtml"/>
   </spine>
   <guide>
     <reference type="cover" title="Cover" href="Text/cover.xhtml"/>

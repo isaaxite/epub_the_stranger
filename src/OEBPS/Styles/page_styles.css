@@ -2,3 +2,10 @@
   margin-bottom: 5pt;
   margin-top: 5pt;
 }
+
+@font-face {
+  font-family: "Fiesole Text Regular";
+  src: url("../Fonts/Fiesole Text Regular.ttf");
+}
+
+

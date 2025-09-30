@@ -1,0 +1,96 @@
+html, body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+
+p {
+  margin: 0;
+}
+
+@font-face {
+  font-family: "Fiesole Text Regular";
+  src: url("../Fonts/Fiesole Text Regular.ttf");
+}
+
+@font-face {
+  font-family: "Monterchi Trial Book";
+  src: url("../Fonts/fonnts.com-Monterchi-Book-trial.ttf");
+}
+
+@font-face {
+  font-family: "Courgette-Regular";
+  src: url("../Fonts/Courgette-Regular.ttf");
+}
+
+.title-page_section {
+  font-family: "Fiesole Text Regular";
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.section-bookname {
+  padding-top: 15vh;
+}
+
+.large-book-name {
+  font-size: 3em;
+  text-align: center;
+  font-family: "Monterchi Trial Book";
+  font-weight: 400;
+}
+
+/* .section-about-camus {} */
+
+.section-about-camus_font--italic {
+  font-family: "Courgette-Regular";
+  font-weight: 400;
+}
+
+.section-about-camus_header {
+  font-family: "Monterchi Trial Book";
+  font-weight: bold;
+  letter-spacing: 0.2em;
+  font-size: 1em;
+}
+
+.section-bookinfo {
+  justify-content: start;
+  position: relative;
+}
+
+.section-bookinfo_header {
+  font-size: 3.6em;
+  text-align: center;
+  font-family: "Monterchi Trial Book";
+  font-weight: 400;
+  margin: 0;
+  line-height: 1.4em;
+  letter-spacing: .3em;
+}
+
+.section-bookinfo_sub-header {
+  margin: 0;
+  font-family: "Monterchi Trial Book";
+  font-weight: 400;
+  font-size: 2.4em;
+  line-height: 2em;
+}
+
+.section-bookinfo_footer {
+  position: absolute;
+  bottom: 0;
+  padding-bottom: 5vh;
+  width: 100%;
+}
+
+.section-bookinfo_footer > p {
+  text-align: center;
+  font-size: 0.6em;
+  font-weight: 500;
+}

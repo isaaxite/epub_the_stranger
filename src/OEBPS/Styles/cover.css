@@ -1,0 +1,21 @@
+html, body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+
+.cover-block {
+  width: 100%;
+  height: 100%;
+  font-size: 0;
+  line-height: 0;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cover-img {
+  max-width: 100%;
+  max-height: 100%;
+}

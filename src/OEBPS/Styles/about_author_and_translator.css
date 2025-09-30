@@ -1,0 +1,29 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+@font-face {
+  font-family: "Monterchi Trial Book";
+  src: url("../Fonts/fonnts.com-Monterchi-Book-trial.ttf");
+}
+
+@font-face {
+  font-family: "Courgette-Regular";
+  src: url("../Fonts/Courgette-Regular.ttf");
+}
+
+.about-author-and-translator_title {
+  font-family: "Monterchi Trial Book";
+  text-align: center;
+  font-weight: bold;
+  letter-spacing: 0.2em;
+  font-size: 1em;
+  margin-top: 5vh;
+}
+
+.about-author-and-translator_font--italic {
+  font-family: "Courgette-Regular";
+  font-weight: 400;
+}

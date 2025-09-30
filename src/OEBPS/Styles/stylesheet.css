@@ -23,6 +23,12 @@ body {
   font-family: "Fiesole Text Regular";
 }
 
+.p-first {
+  display: block;
+  text-align: justify;
+  font-family: "Fiesole Text Regular";
+}
+
 .chapter-title {
   font-family: "Nord Poem Lite";
   text-align: center;
